@@ -1,6 +1,9 @@
 # Use Boto3 on AWS for Message Queuing
 A Boto3 (AWS SDK for Python) script to automate pull messages from SQS queue and download files from S3 bucket by push notification to SNS and the SNS send the message to the subscribes (Email and Two SQS queues)
 
+## The Architecture
+![terminal screenshot](https://raw.githubusercontent.com/Ahmedsamymahrous/Boto3-AWS-MessageQueuing/main/image_for_illustration.jpg)
+
 
 ## Prerequisites
 - AWS account
@@ -27,5 +30,3 @@ A Boto3 (AWS SDK for Python) script to automate pull messages from SQS queue and
     - Extract the metadata of the S3 bucket (S3 bucket name & The file name).
     - And save the metadata in a CSV file called (db.csv).
 
-## The Architecture
-![terminal screenshot](https://raw.githubusercontent.com/Ahmedsamymahrous/Boto3-AWS-MessageQueuing/main/image_for_illustration.jpg)
