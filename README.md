@@ -26,3 +26,6 @@ A Boto3 (AWS SDK for Python) script to automate pull messages from SQS queue and
     - pull the messages from the second SQS queue.
     - Extract the metadata of the S3 bucket (S3 bucket name & The file name).
     - And save the metadata in a CSV file called (db.csv).
+
+## The Architecture
+![terminal screenshot](https://raw.githubusercontent.com/Ahmedsamymahrous/Boto3-AWS-MessageQueuing/main/image_for_illustration.jpg)
